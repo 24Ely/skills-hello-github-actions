@@ -1,11 +1,38 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16">
   <diagram name="第 1 页" id="NIGHU0L8RXe8PCou1VCu">
-    <mxGraphModel dx="1396" dy="264" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1384" dy="264" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_zQvC2IturtSRXzetJur-1" value="&lt;div&gt;&amp;nbsp; namenode （主节点）&lt;div&gt;&amp;nbsp;1、负责管理整个HDFS集群&lt;/div&gt;&lt;div&gt;&amp;nbsp; 2、负责存储和管理元数据&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; 元数据：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 描述数据的数据=&amp;gt;名称、权限、分布式存储100TB文件分多份，&lt;/div&gt;&lt;div&gt;node1、node3、node5&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;secondarynamenode（2NN）：&lt;/div&gt;&lt;div&gt;&amp;nbsp; 负责辅助管理元数据（非热备）&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; datanode（从节点）&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;1、负责存储具体的数据&lt;/div&gt;&lt;div&gt;&amp;nbsp; 2、负责数据读写操作&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;arcSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-288" y="480" width="195" height="328" as="geometry" />
+          <mxGeometry x="-262" y="491" width="195" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="_zQvC2IturtSRXzetJur-4" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="_zQvC2IturtSRXzetJur-2" target="_zQvC2IturtSRXzetJur-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_zQvC2IturtSRXzetJur-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-31" y="487" width="342" height="342" as="geometry" />
+        </mxCell>
+        <mxCell id="_zQvC2IturtSRXzetJur-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="311" y="487" width="341" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="_zQvC2IturtSRXzetJur-13" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="_zQvC2IturtSRXzetJur-5" target="_zQvC2IturtSRXzetJur-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_zQvC2IturtSRXzetJur-15" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="_zQvC2IturtSRXzetJur-5" target="_zQvC2IturtSRXzetJur-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_zQvC2IturtSRXzetJur-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="502" width="116" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="_zQvC2IturtSRXzetJur-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="183" y="575" width="104" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_zQvC2IturtSRXzetJur-12" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-31" y="726" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_zQvC2IturtSRXzetJur-14" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="68" y="733" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
