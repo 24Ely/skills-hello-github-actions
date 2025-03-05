@@ -4,8 +4,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_zQvC2IturtSRXzetJur-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-298" y="445" width="118" height="308" as="geometry" />
+        <mxCell id="_zQvC2IturtSRXzetJur-1" value="&lt;div&gt;&amp;nbsp; namenode （主节点）&lt;div&gt;&amp;nbsp;1、负责管理整个HDFS集群&lt;/div&gt;&lt;div&gt;&amp;nbsp; 2、负责存储和管理元数据&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; 元数据：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 描述数据的数据=&amp;gt;名称、权限、分布式存储100TB文件分多份，&lt;/div&gt;&lt;div&gt;node1、node3、node5&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;secondarynamenode（2NN）：&lt;/div&gt;&lt;div&gt;&amp;nbsp; 负责辅助管理元数据（非热备）&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; datanode（从节点）&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;1、负责存储具体的数据&lt;/div&gt;&lt;div&gt;&amp;nbsp; 2、负责数据读写操作&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-288" y="480" width="195" height="328" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
